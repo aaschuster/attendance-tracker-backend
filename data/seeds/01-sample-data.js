@@ -37,9 +37,17 @@ exports.seed = async function(knex) {
       firstname: "Bossman",
       lastname: "Wells",
       role_id: 3,
-      email: "bmwelly@ohyeah.com",
+      email: "bmwelly@cfa.com",
       password: bcrypt.hashSync("pass", 8),
       hiredate: "2023-07-29"
+    },
+    {
+      firstname: "John",
+      lastname: "Doe",
+      role_id: 1,
+      email: "johndoe@eg.com",
+      password: bcrypt.hashSync("pass", 8),
+      hiredate: "2023-08-29"
     }
   ])
 };
