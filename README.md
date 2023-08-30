@@ -1,6 +1,6 @@
 # Attendance Tracker Backend
 
-This is the backend Express server for my attendance-tracker project. It currently is still a work in progress. The goal is for profiles with differing roles to be able to access and adjust data in the database. 
+This is the backend Express server for my attendance-tracker project. It currently is still a work in progress. The goal is for profiles with differing roles to be able to access and adjust data in the database. Deployed with Glitch at https://attendance-tracker-backend.glitch.me/ 
 
 ### Setup
 
