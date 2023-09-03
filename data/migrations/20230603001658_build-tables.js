@@ -1,4 +1,4 @@
-const {startingPts} = require("../../../consts");
+const {startingPts} = require("../../consts");
 
 /**
  * @param { import("knex").Knex } knex
