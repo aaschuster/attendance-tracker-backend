@@ -27,12 +27,12 @@ server.post("/", validateUser, confirmAuthenticated, (req, res, next) => {
 
     const user = req.body;
 
-    const {password} = user;
+    let {email, password} = user;
 
     if(password)
         password = bcrypt.hashSync(password, 8);
 
-    Model.insert(user)
+    Model.insert({...user, email: email, password: password })
         .then( userID => res.json(userID))
         .catch(next);
 })
